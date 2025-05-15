@@ -4,7 +4,6 @@ body {
   padding: 0;
   background-color: rgb(2, 2, 2);
   text-align: center;
-
 }
 
 header {
@@ -20,8 +19,6 @@ header {
   margin: 20px auto;
   padding: 0 20px;
   color: white;
-  
-
 }
 
 .main-content {
@@ -52,19 +49,19 @@ header {
 
 @media only screen and (max-width: 600px) {
   .container {
-      font-size: 14px;
+    font-size: 14px;
   }
 
   .main-content {
-      font-size: 14px;
+    font-size: 14px;
   }
 
   .texto-do-slipknot {
-      font-size: 14px;
+    font-size: 14px;
   }
 
   .discografia {
-      font-size: 14px;
+    font-size: 14px;
   }
 }
 .slipknot-imagem {
@@ -90,7 +87,6 @@ header {
   height: auto;
   margin: 20px auto;
   display: block;
-  
 }
 
 .mick {
@@ -148,19 +144,27 @@ header {
   margin: 20px auto;
   display: block;
 }
-.direitos, .minha-foto {
-border-radius: 50%;
-text-align: center;
-height: 60px;
-font-size: small;
-margin-top: 50px;
+
+.direitos {
+  border-radius: 50%;
+  text-align: center;
+  font-size: small;
+  margin-bottom: 40px;
 }
-.curiosidades-slipknot { 
-text-align: center;
+
+.minha-foto {
+  width: 60px;
+  margin-top: 80px;
 }
+
+.curiosidades-slipknot {
+  text-align: center;
+}
+
 .link-insta {
   color: #fff;
 }
+
 .slipknot-curiosidades-imagem {
   max-width: 800px;
   width: 100%;
@@ -169,23 +173,24 @@ text-align: center;
   margin-right: auto;
   display: block;
 }
+
 .musica-favorita video {
   width: 1000px;
   height: 600px;
-  margin-left: -100px; 
+  margin-left: -100px;
 }
 
 @media screen and (min-width: 768px) {
   .musica-favorita video {
-      width: 1200px;
-      margin-left: -200px;
+    width: 1200px;
+    margin-left: -200px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .musica-favorita video {
-      width: 100%;
-      margin-left: 0;
+    width: 100%;
+    margin-left: 0;
   }
 }
 .mascaras-container {
@@ -301,37 +306,50 @@ text-align: center;
 /* Responsividade */
 @media (max-width: 768px) {
   .slider {
-      height: 50vh;
+    height: 50vh;
   }
-  
+
   .member-name {
-      font-size: 1.2rem;
-      padding: 10px;
+    font-size: 1.2rem;
+    padding: 10px;
   }
-  
+
   .slider-btn {
-      width: 40px;
-      height: 40px;
-      font-size: 1.2rem;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
   }
 }
 
 @media (max-width: 480px) {
   .slider {
-      height: 40vh;
+    height: 40vh;
   }
-  
+
   .mascaras-container h1 {
-      font-size: 1.4rem;
+    font-size: 1.4rem;
   }
-  
+
   .member-name {
-      font-size: 1rem;
+    font-size: 1rem;
   }
 }
-.mascara-corey,.mascara-corey2,.mascara-jim,.mascara-jim2,.mascara-mick,.mascara-mick2,.mascara-sid,.mascara-sid2,.mascara-shawn,.mascara-shawn2,.mascara-craig,.mascara-craig2,
-.mascara-jay,.mascara-jay2,.mascara-alessandro,.mascara-alessandro2 {
-  
+.mascara-corey,
+.mascara-corey2,
+.mascara-jim,
+.mascara-jim2,
+.mascara-mick,
+.mascara-mick2,
+.mascara-sid,
+.mascara-sid2,
+.mascara-shawn,
+.mascara-shawn2,
+.mascara-craig,
+.mascara-craig2,
+.mascara-jay,
+.mascara-jay2,
+.mascara-alessandro,
+.mascara-alessandro2 {
   width: 100%;
   height: 800px;
   margin-left: auto;
@@ -392,9 +410,4 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #9c1c2a;
- }
-
-  
-
-
-
+}
